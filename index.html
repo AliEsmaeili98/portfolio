@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ali Esmaeili Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source Sans Pro|Source Code Pro"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Ali Esmaeili</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Computer Engineer
+      </p>
+      <img
+        class="intro__img"
+        src="assets/intro.jpg"
+        alt="A picture of Ali Esmaeili"
+      />
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <!-- service 01 -->
+        <div class="service">
+          <h3>Web Development</h3>
+          <p>
+            I enjoy running into visual and logical problems and then trying to
+            fix them and web development is full of these challenges. I'm not an
+            expert by any means but I'm learning more each day about different
+            technologies and how they come together to make a better website.
+            Currently i don't develop back-ends but one day I sure do!
+          </p>
+        </div>
+        <!-- service 02 -->
+        <div class="service">
+          <h3>Application Development</h3>
+          <p>
+            Developing Mobile and Desktop applications is pretty much similar to
+            developing a web application with One key difference being it's
+            practicality. Don't get me wrong, web applications are practical too
+            but web can't provide the same resources that a mobile or a desktop
+            can. I love using this potential to create more practical and cross
+            platform applications. I mainly use flutter for this purpose.
+          </p>
+        </div>
+        <!-- service 03 -->
+        <div class="service">
+          <h3>UI/UX Design</h3>
+          <p>
+            Playing with different colors and trying to match them with each
+            other, thinking about how the user might get confused with different
+            app features, providing a way for disabled people to still be able
+            to use the application, creating a balance between convenience and
+            looks, etc are all important to success of and application and I as
+            an indie developer have to always design before programming!
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Tell me and I forget, teach me and I may remember, involve me and I
+        learn.
+      </p>
+      <img
+        class="about-me__img"
+        src="assets/about-me.jpg"
+        alt="an image of ali sitting"
+      />
+      <div class="about-me__body">
+        <p>
+          My name is Ali Esmaeili. A Computer Engineering bachelor student at
+          Shahrood University of Technology who enjoys developing front-ends and
+          is learning more technologies each day. My main goal is to study
+          abroad in Australia to get a better look at what world needs in my
+          field and develop skills based on that using the top level education
+          Australian universities provide.
+        </p>
+        <p>Here's a list of different technologies that I work with:</p>
+        <ul class="about-me__skils">
+          <li>Flutter</li>
+          <li>HTML, CSS, Javascript</li>
+          <li>C, C++</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>Dart</li>
+          <li>SQLite</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+      <div class="portfolio">
+        <!-- portfolio 01 -->
+        <a href="portfolio-item-1.html" class="portfolio__item">
+          <img
+            class="portfolio__img"
+            src="assets/library.jpeg"
+            alt="Library app"
+          />
+        </a>
+        <!-- portfolio 02 -->
+        <a href="portfolio-item-2.html" class="portfolio__item">
+          <img class="portfolio__img" src="assets/todo.jpeg" alt="ToDo app" />
+        </a>
+        <!-- portfolio 03 -->
+        <a href="portfolio-item-3.html" class="portfolio__item">
+          <img
+            class="portfolio__img"
+            src="assets/website.jpeg"
+            alt="This website"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <h2 class="footer__title">
+        Contact Me!
+      </h2>
+      <ul class="social-list">
+        <!-- social 01 -->
+        <li class="social-list__item">
+          <a class="social-list__link" href="mailto:mail.aliesmaeili@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+        <!-- social 02 -->
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/AliEsmaeili98">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <!-- social 03 -->
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://linkedin.com/in/ali-esmaeili-69593b230">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <!-- social 04 -->
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://t.me/ytyh98">
+            <i class="fab fa-telegram"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <button onclick="topFunction()" class="top-btn">
+      <i class="fas fa-arrow-up"></i>
+    </button> 
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
