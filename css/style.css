@@ -94,6 +94,7 @@ strong {
   z-index: 99;
   border: none;
   outline: none;
+  box-shadow: var(--bs);
   background-color: var(--clr-accent);
   color: var(--clr-light);
   cursor: pointer;
