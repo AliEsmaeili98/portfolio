@@ -112,6 +112,10 @@ strong {
   opacity: 100%;
 }
 
+.top-btn_normal-scale {
+  transform: scale(1);
+}
+
 /* Typography */
 h1,
 h2,

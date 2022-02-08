@@ -19,11 +19,13 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     requestAnimationFrame(() => {
-        mybutton.classList.add("top-btn_fadein")
+      mybutton.classList.remove("top-btn_normal-scale");
+        mybutton.classList.add("top-btn_fadein");
     })  
   } else {
     requestAnimationFrame(() => {
-        mybutton.classList.remove("top-btn_fadein")
+        mybutton.classList.remove("top-btn_fadein");
+        mybutton.classList.add("top-btn_normal-scale");
     })
   }
 }
